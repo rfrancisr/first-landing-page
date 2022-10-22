@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+}
+.header > div {
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+}
+.menu div {
+    flex: 1;
+}
