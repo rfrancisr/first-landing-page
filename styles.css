@@ -1,13 +1,87 @@
-.header {
-    display: flex;
-}
-.header > div {
-    flex: 1;
+html, body {
+    padding: 0;
+    margin: 0;
 }
 
-.menu {
-    display: flex;
+.header, .hero {
+    background: #1f2937;
+    padding: 0 0 50px 0;
 }
-.menu div {
-    flex: 1;
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container h3 {
+    color:#e5e7eb;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header .container ul li {
+    padding: 0 0 0 20px;
+    color:#e5e7eb;
+}
+
+.container .left h1 {
+    color:#e5e7eb;
+}
+
+.left {
+    max-width: 400px;
+}
+
+.left p {
+    color:#e5e7eb;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    text-decoration: none; 
+}
+
+.right {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .box, .container .text {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.box li {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin: 0 50px 0 50px;
+    padding: 0px;
+}
+
+.text li {
+    width: 80px;
+    height: 80px;
+    margin: 0 50px 0 50px;
+    font-size: 13px;
+    text-align: justify;
 }
